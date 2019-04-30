@@ -144,7 +144,7 @@ def othello_rv(x,y):
 
 
 #skip_swが偶数なら"黒白どちらも置けない"のでループ終了
-while not skip_sw % 2 == 0:
+while skip_sw % 2 == 0:
 
     skip_sw = 0
 
