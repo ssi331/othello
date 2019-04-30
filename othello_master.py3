@@ -154,8 +154,8 @@ while skip_sw % 2 == 0:
 
     #黒が置ける場合は盤面配列を更新
     else:
-        a = int(input("黒のプレイヤーは行を入力してください";))
-        b = int(input("黒のプレイヤーは列を入力してください";))
+        a = int(input("黒のプレイヤーは行を入力してください"))
+        b = int(input("黒のプレイヤーは列を入力してください"))
         othello_board[a][b] = 1
         othello_rv(a,b)
 
@@ -165,8 +165,8 @@ while skip_sw % 2 == 0:
 
     #黒が置ける場合は盤面配列を更新
     else:
-        a = int(input("白のプレイヤーは行を入力してください";))
-        b = int(input("白のプレイヤーは列を入力してください";))
+        a = int(input("白のプレイヤーは行を入力してください"))
+        b = int(input("白のプレイヤーは列を入力してください"))
         othello_board[a][b] = 2
         othello_rv(a,b)
 
